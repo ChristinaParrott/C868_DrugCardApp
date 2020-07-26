@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.drugcardapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_add_card"
+            app:destination="@id/nav_drug_card" />
+        <action
+            android:id="@+id/action_home_to_lib"
+            app:destination="@id/nav_library" />
+        <action
+            android:id="@+id/action_home_to_quiz"
+            app:destination="@id/nav_quiz" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_report"
+            app:destination="@id/nav_report" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_library"
+        android:name="com.example.drugcardapp.ui.library.LibraryFragment"
+        android:label="@string/menu_library"
+        tools:layout="@layout/fragment_drug_card_library" >
+        <action
+            android:id="@+id/action_library_to_card"
+            app:destination="@id/nav_drug_card" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_quiz"
+        android:name="com.example.drugcardapp.ui.quiz.QuizFragment"
+        android:label="@string/menu_quiz"
+        tools:layout="@layout/fragment_quizzes" >
+        <action
+            android:id="@+id/action_quiz_to_edit"
+            app:destination="@id/nav_edit_quiz" />
+        <action
+            android:id="@+id/action_quiz_to_new"
+            app:destination="@id/nav_new_quiz" />
+        <action
+            android:id="@+id/action_quiz_to_start"
+            app:destination="@id/nav_start_quiz" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_drug_card"
+        android:tag="drug_card"
+        android:name="com.example.drugcardapp.ui.card.DrugCardFragment"
+        android:label="@string/drug_cards"
+        tools:layout="@layout/fragment_drug_card" >
+        <action
+            android:id="@+id/nav_card_to_lib"
+            app:destination="@id/nav_library" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_edit_quiz"
+        android:name="com.example.drugcardapp.ui.quiz.EditQuizFragment"
+        android:label="Edit Quiz" >
+        <action
+            android:id="@+id/action_edit_to_quiz"
+            app:destination="@id/nav_quiz" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_new_quiz"
+        android:name="com.example.drugcardapp.ui.quiz.NewQuizFragment"
+        android:label="New Quiz"
+        tools:layout="@layout/fragment_new_quiz" >
+        <action
+            android:id="@+id/action_new_to_quiz"
+            app:destination="@id/nav_quiz" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_start_quiz"
+        android:name="com.example.drugcardapp.ui.quiz.StartQuizFragment"
+        android:label="Start Quiz"
+        tools:layout="@layout/fragment_start_quiz" >
+        <action
+            android:id="@+id/action_start_to_front"
+            app:destination="@id/nav_card_front" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_card_front"
+        android:name="com.example.drugcardapp.ui.quiz.CardFrontFragment"
+        android:label="Card Front" >
+        <action
+            android:id="@+id/action_front_to_back"
+            app:destination="@id/nav_card_back" />
+        <action
+            android:id="@+id/action_front_to_quiz"
+            app:destination="@id/nav_quiz" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_card_back"
+        android:name="com.example.drugcardapp.ui.quiz.CardBackFragment"
+        android:label="Card Back" >
+        <action
+            android:id="@+id/action_back_to_front"
+            app:destination="@id/nav_card_front" />
+        <action
+            android:id="@+id/action_back_to_quiz"
+            app:destination="@id/nav_quiz" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_report"
+        android:name="com.example.drugcardapp.ui.report.ReportFragment"
+        android:label="PDF Cards" />
+</navigation>

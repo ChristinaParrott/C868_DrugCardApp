@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="drug_class_array">
+        <item>None</item>
+        <item>Acne Vulgaris</item>
+        <item>Adjunct Medication for Pain</item>
+        <item>Allergies</item>
+        <item>Alzheimers Disease</item>
+        <item>Angiotensin-Converting Enzyme Inhibitor</item>
+        <item>Angiotensin II Receptor Blocker</item>
+        <item>Antianginal</item>
+        <item>Antibiotic - Beta-Lactam</item>
+        <item>Antibiotic - Fluoroquinolone</item>
+        <item>Antibiotic - Macrolide</item>
+        <item>Antibiotic - Other Agent</item>
+        <item>Anticonvulsant</item>
+        <item>Antiplatelet</item>
+        <item>Antiviral - HIV</item>
+        <item>Antiviral - Influenza and Herpes Simplex</item>
+        <item>Atypical Antipsychotic</item>
+        <item>Benign Prostatic Hypertrophy - Alpha Blockers</item>
+        <item>Benign Prostatic Hypertrophy - 5-Alpha Reductase Inhibitors</item>
+        <item>Benzodiazepine</item>
+        <item>Beta Blocker</item>
+        <item>Biguanides</item>
+        <item>Bronchodilator</item>
+        <item>Calcium Channel Blocker</item>
+        <item>Contraceptives</item>
+        <item>Corticosteroids</item>
+        <item>Cough and Cold</item>
+        <item>Diarrhea and Ulcerative Colitis</item>
+        <item>Diuretic</item>
+        <item>Epilepsy</item>
+        <item>Erectile Dysfunction</item>
+        <item>Erythropoiesis-Stimulating Agent</item>
+        <item>Glaucoma</item>
+        <item>Gout</item>
+        <item>Headache</item>
+        <item>Histamine Receptor Blocker</item>
+        <item>Hormonal Therapy</item>
+        <item>HMG-CoA Reductase Inhibitors</item>
+        <item>Inhaled Corticosteroid</item>
+        <item>Injectable Diabetic Agents</item>
+        <item>Laxative</item>
+        <item>Long-Acting Beta Agonist</item>
+        <item>Muscle Relaxant</item>
+        <item>Nasal Corticosteroids</item>
+        <item>Nausea</item>
+        <item>Non-Benzodiazepine Hypnotics</item>
+        <item>Non-Steroidal Anti-Inflammatory</item>
+        <item>Novel Oral Anticoagulant</item>
+        <item>Opioid Analgesic</item>
+        <item>Oral Diabetic Agents I</item>
+        <item>Oral Diabetic Agents II</item>
+        <item>Osteoporosis</item>
+        <item>Other Agents for Dyslipidemia</item>
+        <item>Other Antidepressants and Anti-Anxiety Agents</item>
+        <item>Other Cardiovascular Agent</item>
+        <item>Other Ophthalmic Agents</item>
+        <item>Other Respiratory Agent</item>
+        <item>Overactive Bladder</item>
+        <item>Proton Pump Inhibitor</item>
+        <item>Renal Agent</item>
+        <item>Renin-Angiotensin-Aldosterone System</item>
+        <item>Rheumatoid Arthritis</item>
+        <item>Selective Serotonin Reuptake Inhibitor</item>
+        <item>Serotonin-Norepinephrine Reuptake Inhibitor</item>
+        <item>Short-Acting Beta Agonist and Anticholinergic</item>
+        <item>Smoking Cessation</item>
+        <item>Statins</item>
+        <item>Stimulant and ADHD Agents</item>
+        <item>Thyroid Preparations</item>
+        <item>Traditional Anticoagulant</item>
+        <item>Triazole Antifungal</item>
+
+    </string-array>
+</resources>

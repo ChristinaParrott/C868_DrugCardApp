@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="body_systems_array">
+        <item>None</item>
+        <item>Cardiovascular</item>
+        <item>Endocrine</item>
+        <item>Gastrointestinal</item>
+        <item>Genitourinary</item>
+        <item>Hematologic</item>
+        <item>Immune</item>
+        <item>Infection</item>
+        <item>Inflammation</item>
+        <item>Musculoskeletal</item>
+        <item>Neurological</item>
+        <item>Pain</item>
+        <item>Reproductive</item>
+        <item>Respiratory</item>
+    </string-array>
+</resources>

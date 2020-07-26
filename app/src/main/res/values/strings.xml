@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Drug Card App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Drug Card App</string>
+    <string name="nav_header_subtitle">cparro5@wgu.edu</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_library">Drug Card Library</string>
+    <string name="menu_quiz">Quizzes</string>
+    <string name="delete_all_cards">Delete All Cards</string>
+    <string name="add_sample_cards">Add Sample Cards</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="generic_name">Generic Name</string>
+    <string name="trade_name">Trade Name</string>
+    <string name="drug_class">Drug Class</string>
+    <string name="drug_system">Drug System</string>
+    <string name="action_mechanism">Action Mechanism</string>
+    <string name="side_effects">Side Effects</string>
+    <string name="adverse_reactions">Adverse Reactions</string>
+    <string name="interactions">Interactions</string>
+    <string name="nursing_implications">Nursing Implications</string>
+    <string name="other">Other</string>
+    <string name="drug_cards">Drug Cards</string>
+    <string name="card_saved">Drug card saved.</string>
+    <string name="EDIT_KEY">edit</string>
+    <string name="delete">Delete</string>
+    <string name="GENERIC_KEY">generic name</string>
+    <string name="TRADE_KEY">trade name</string>
+    <string name="CLASS_KEY">class_key</string>
+    <string name="SYSTEM_KEY">system key</string>
+    <string name="ACTION_KEY">action key</string>
+    <string name="EFFECTS_KEY">effects key</string>
+    <string name="ADVERSE_KEY">adverse key</string>
+    <string name="INTERACT">interaction key</string>
+    <string name="INTERACT_KEY">interaction key</string>
+    <string name="IMPLIC_KEY">implications key</string>
+    <string name="OTHER_KEY">other key</string>
+    <string name="QUIZ_NAME">quiz_name</string>
+    <string name="CHIP_KEY">chip_key</string>
+</resources>
